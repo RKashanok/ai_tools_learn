@@ -1,16 +1,9 @@
-# Compiled class file
+# Combined .gitignore for Java, Python, and Go projects
+
+# Java
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -18,7 +11,139 @@
 *.zip
 *.tar.gz
 *.rar
+.idea/
+*.iws
+*.iml
+*.ipr
+.classpath
+.project
+.settings/
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/.gradle/
+/build/
+/target/
+.vscode/
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+.idea
+/leiningen/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mo
+.pot
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+target/
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+.python-version
+Pipfile.lock
+Pipfile
+.poetry/
+__pypackages__/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+*.sage
+*.swp
+*~
+*..sublime-workspace
+sftp-config.json
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+.vscode/
+.history/
+ScaffoldingAssemblies/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.o
+*.a
+*.lib
+*.so
+*.so.*
+_obj/
+_test/
+*.[568vq]
+*.i
+*.s
+*.S
+*.h.gch
+*.exe
+*.js.map
+vendor/
+apikeys.go
+trace.out
+.cover/
+.openshift/
+.gradle/
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.idea/

@@ -1,2 +1,4 @@
 # ai_tools_learn
-Quickstarts for learning AI tools integration
+- Speech recognition with Azure:
+Java:
+Python: (requires 'pip install azure-cognitiveservices-speech') 
