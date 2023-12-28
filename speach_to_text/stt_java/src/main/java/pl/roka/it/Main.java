@@ -1,4 +1,4 @@
-package org.example;
+package pl.roka.it;
 
 import com.microsoft.cognitiveservices.speech.CancellationDetails;
 import com.microsoft.cognitiveservices.speech.SpeechConfig;
